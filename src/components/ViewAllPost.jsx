@@ -1,6 +1,8 @@
+
 import React, { useEffect, useState } from 'react'
 import PostNavbar from './PostNavbar'
 import axios from 'axios'
+
 
 const ViewAllPost = () => {
   const[postData,changePost]=useState(
